@@ -12,7 +12,7 @@ body {
 
 .container{
 	max-width: 1200px;
-	width: 90%
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -41,7 +41,7 @@ h4 {
 p {
 	font-size: 0.875em;
 	line-height: 21px;
-    padding: 0 30px;
+  padding: 0 30px;
 }
 
 /*The widths are in a percentage!*/
@@ -51,7 +51,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flew-flow: row wrap;
+	flex-flow: row wrap;
 	width: 100%;
 }
 
@@ -70,18 +70,25 @@ header h1 span {
 header nav {
 	padding: 20px 0;
 	width: 100%;
+
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
 }
+
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
 	list-style: none;
+	line-height: 30px;
+	justify-content: center;
+	display: flex;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -123,7 +130,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
